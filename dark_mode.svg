@@ -13,7 +13,7 @@
     .pink { fill: #ffb3c7; font-weight: 700; }
     .yellow { fill: #ffe6a7; font-weight: 700; }
     .dots { fill: #6e7681; }
-    .value { fill: #c9d1d9; text-anchor: end; }
+    .value-flow { fill: #c9d1d9; }
     .name { fill: #c9d1d9; font-weight: 700; }
     .rule { fill: #6e7681; }
     .muted { fill: #8b949e; text-anchor: end; }
@@ -59,32 +59,33 @@
 
   <line class="divider" x1="365" y1="94" x2="365" y2="470" />
 
-  <text class="text" x="385" y="102">
-    <tspan class="name" x="385" dy="0">Josh@Nardone</tspan><tspan class="rule"> ------------------------------------</tspan>
-    <tspan class="pink" x="385" dy="15">OS:</tspan><tspan class="dots" x="414">............................................................</tspan><tspan class="value" x="905">Windows 11, Ubuntu</tspan>
-    <tspan class="pink" x="385" dy="15">Uptime:</tspan><tspan class="dots" x="442">...................................................</tspan><tspan id="uptime" class="value" x="905">22 years, 3 months, 28 days</tspan>
-    <tspan class="pink" x="385" dy="15">Host:</tspan><tspan class="dots" x="421">................................................................</tspan><tspan class="value" x="905">MBTA</tspan>
-    <tspan class="pink" x="385" dy="15">Kernel:</tspan><tspan class="dots" x="449">...................................................</tspan><tspan class="value" x="905">Software Engineering Intern</tspan>
-    <tspan class="pink" x="385" dy="15">IDE:</tspan><tspan class="dots" x="414">.............................................................</tspan><tspan class="value" x="905">VSCode 1.130</tspan>
+  <g class="text">
+    <text class="name" x="385" y="102">Josh@Nardone<tspan class="rule"> ------------------------------------</tspan></text>
 
-    <tspan class="yellow" x="385" dy="30">Languages.Programming:</tspan><tspan class="dots" x="552">...........................</tspan><tspan class="value" x="905">TypeScript, JavaScript, C#, Python</tspan>
-    <tspan class="yellow" x="385" dy="15">Languages.Computer:</tspan><tspan class="dots" x="531">........................................</tspan><tspan class="value" x="905">HTML, CSS, SQL, JSON</tspan>
-    <tspan class="yellow" x="385" dy="15">Languages.Real:</tspan><tspan class="dots" x="503">...........................................................</tspan><tspan class="value" x="905">English</tspan>
+    <text x="385" y="117"><tspan class="pink">OS:</tspan><tspan class="dots">.......................................................</tspan><tspan class="value-flow">Windows 11, Ubuntu</tspan></text>
+    <text id="uptime" x="385" y="132"><tspan class="pink">Uptime:</tspan><tspan class="dots">......................................</tspan><tspan class="value-flow">22 years, 3 months, 28 days</tspan></text>
+    <text x="385" y="147"><tspan class="pink">Host:</tspan><tspan class="dots">.................................................................</tspan><tspan class="value-flow">MBTA</tspan></text>
+    <text x="385" y="162"><tspan class="pink">Kernel:</tspan><tspan class="dots">......................................</tspan><tspan class="value-flow">Software Engineering Intern</tspan></text>
+    <text x="385" y="177"><tspan class="pink">IDE:</tspan><tspan class="dots">...........................................................</tspan><tspan class="value-flow">VSCode 1.130</tspan></text>
 
-    <tspan class="pink" x="385" dy="30">Hobbies.Software:</tspan><tspan class="dots" x="517">......................................</tspan><tspan class="value" x="905">React, Next.js, .NET, Godot</tspan>
-    <tspan class="pink" x="385" dy="15">Hobbies.Hardware:</tspan><tspan class="dots" x="517">..............................</tspan><tspan class="value" x="905">PC Building, Raspberry Pi, Networking</tspan>
-    <tspan class="pink" x="385" dy="15">Hobbies.Life:</tspan><tspan class="dots" x="482">....................................</tspan><tspan class="value" x="905">Fishing, Baseball, Gaming, Hiking</tspan>
+    <text x="385" y="207"><tspan class="yellow">Languages.Programming:</tspan><tspan class="dots">..................</tspan><tspan class="value-flow">TypeScript, JavaScript, C#, Python</tspan></text>
+    <text x="385" y="222"><tspan class="yellow">Languages.Computer:</tspan><tspan class="dots">.................................</tspan><tspan class="value-flow">HTML, CSS, SQL, JSON</tspan></text>
+    <text x="385" y="237"><tspan class="yellow">Languages.Real:</tspan><tspan class="dots">...................................................</tspan><tspan class="value-flow">English</tspan></text>
 
-    <tspan class="rule" x="385" dy="30">-Contact---------------------------------------------------------------------</tspan>
-    <tspan class="yellow" x="385" dy="15">Email.Personal:</tspan><tspan class="dots" x="503">..........................................</tspan><tspan class="value" x="905">Joshuaslogon@gmail.com</tspan>
-    <tspan class="yellow" x="385" dy="15">Email.School:</tspan><tspan class="dots" x="489">....................................................</tspan><tspan class="value" x="905">nardonej3@wit.edu</tspan>
-    <tspan class="yellow" x="385" dy="15">LinkedIn:</tspan><tspan class="dots" x="461">......................................................</tspan><tspan class="value" x="905">joshua-nardone</tspan>
-    <tspan class="yellow" x="385" dy="15">Discord:</tspan><tspan class="dots" x="454">................................................................</tspan><tspan class="value" x="905">jothua.</tspan>
+    <text x="385" y="267"><tspan class="pink">Hobbies.Software:</tspan><tspan class="dots">................................</tspan><tspan class="value-flow">React, Next.js, .NET, Godot</tspan></text>
+    <text x="385" y="282"><tspan class="pink">Hobbies.Hardware:</tspan><tspan class="dots">.........................</tspan><tspan class="value-flow">PC Building, Raspberry Pi, Networking</tspan></text>
+    <text x="385" y="297"><tspan class="pink">Hobbies.Life:</tspan><tspan class="dots">...............................</tspan><tspan class="value-flow">Fishing, Baseball, Gaming, Hiking</tspan></text>
 
-    <tspan class="rule" x="385" dy="30">-Github Stats----------------------------------------------------------------</tspan>
-    <tspan class="pink" x="385" dy="15">Repos:</tspan><tspan class="dots" x="428">....................................................................</tspan><tspan id="repos" class="value" x="905">13</tspan>
-    <tspan class="pink" x="385" dy="15">Commits:</tspan><tspan class="dots" x="449">..................................................................</tspan><tspan id="commits" class="value" x="905">74</tspan>
-    <tspan class="pink" x="385" dy="15">Lines of Code on Github:</tspan><tspan class="dots" x="566">....................................................</tspan><tspan id="lines_of_code" class="value" x="905">27,087</tspan>
-    <tspan id="last_updated" class="muted" x="905" dy="15">Last Updated: 2026-07-29</tspan>
-  </text>
+    <text class="rule" x="385" y="327">-Contact---------------------------------------------------------------------</text>
+    <text x="385" y="342"><tspan class="yellow">Email.Personal:</tspan><tspan class="dots">........................................</tspan><tspan class="value-flow">Joshuaslogon@gmail.com</tspan></text>
+    <text x="385" y="357"><tspan class="yellow">Email.School:</tspan><tspan class="dots">..............................................</tspan><tspan class="value-flow">nardonej3@wit.edu</tspan></text>
+    <text x="385" y="372"><tspan class="yellow">LinkedIn:</tspan><tspan class="dots">................................................</tspan><tspan class="value-flow">joshua-nardone</tspan></text>
+    <text x="385" y="387"><tspan class="yellow">Discord:</tspan><tspan class="dots">...........................................................</tspan><tspan class="value-flow">jothua.</tspan></text>
+
+    <text class="rule" x="385" y="417">-Github Stats----------------------------------------------------------------</text>
+    <text id="repos" x="385" y="432"><tspan class="pink">Repos:</tspan><tspan class="dots">................................................................</tspan><tspan class="value-flow">13</tspan></text>
+    <text id="commits" x="385" y="447"><tspan class="pink">Commits:</tspan><tspan class="dots">..............................................................</tspan><tspan class="value-flow">74</tspan></text>
+    <text id="lines_of_code" x="385" y="462"><tspan class="pink">Lines of Code on Github:</tspan><tspan class="dots">..........................................</tspan><tspan class="value-flow">27,087</tspan></text>
+    <text id="last_updated" class="muted" x="895" y="477">Last Updated: 2026-07-29</text>
+  </g>
 </svg>

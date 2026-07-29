@@ -13,6 +13,14 @@ import requests
 GITHUB_GRAPHQL_URL = "https://api.github.com/graphql"
 SVG_FILES = (Path("dark_mode.svg"),)
 ENV_FILE = Path(".env")
+SVG_NS = "http://www.w3.org/2000/svg"
+ROW_WIDTH = 72
+DYNAMIC_ROWS = {
+    "uptime": ("Uptime:", "pink"),
+    "repos": ("Repos:", "pink"),
+    "commits": ("Commits:", "pink"),
+    "lines_of_code": ("Lines of Code on Github:", "pink"),
+}
 
 
 def load_dotenv(path: Path = ENV_FILE) -> None:
@@ -260,11 +268,10 @@ def fetch_github_stats(config: ProfileConfig) -> GitHubStats:
     )
 
 
-def dotted_line(label: str, value: int | str, width: int = 43) -> str:
-    """Create Andrew-style dotted alignment rows that fit the right column."""
-    text = f"{value:,}" if isinstance(value, int) else value
-    dots = "." * max(2, width - len(label) - len(text) - 2)
-    return f"{label} {dots} {text}"
+def line_parts(label: str, value: str, width: int = ROW_WIDTH) -> tuple[str, str, str]:
+    """Return key, dot leader, and value text for one fixed-width terminal row."""
+    dots = "." * max(2, width - len(label) - len(value))
+    return label, dots, value
 
 
 def text_updates(config: ProfileConfig, stats: GitHubStats, today: dt.date | None = None) -> dict[str, str]:
@@ -279,7 +286,7 @@ def text_updates(config: ProfileConfig, stats: GitHubStats, today: dt.date | Non
 
 
 def replace_element_text(element: ET.Element, text: str) -> None:
-    """Replace an SVG tspan's nested content while preserving its SVG attributes."""
+    """Replace an SVG text node while preserving position and class attributes."""
     attributes = dict(element.attrib)
     tail = element.tail
     element.clear()
@@ -288,9 +295,26 @@ def replace_element_text(element: ET.Element, text: str) -> None:
     element.tail = tail
 
 
+def replace_row(element: ET.Element, label: str, value: str, color_class: str) -> None:
+    """Replace a dynamic row with one flowing key/dots/value text line."""
+    attributes = dict(element.attrib)
+    tail = element.tail
+    element.clear()
+    element.attrib.update(attributes)
+    element.tail = tail
+
+    key, dots, display_value = line_parts(label, value)
+    key_node = ET.SubElement(element, f"{{{SVG_NS}}}tspan", {"class": color_class})
+    key_node.text = key
+    dots_node = ET.SubElement(element, f"{{{SVG_NS}}}tspan", {"class": "dots"})
+    dots_node.text = dots
+    value_node = ET.SubElement(element, f"{{{SVG_NS}}}tspan", {"class": "value-flow"})
+    value_node.text = display_value
+
+
 def update_svg_text(svg_path: Path, updates: dict[str, str]) -> None:
     """Edit existing SVG text nodes by id instead of rebuilding the SVG."""
-    ET.register_namespace("", "http://www.w3.org/2000/svg")
+    ET.register_namespace("", SVG_NS)
     tree = ET.parse(svg_path)
     root = tree.getroot()
 
@@ -298,7 +322,11 @@ def update_svg_text(svg_path: Path, updates: dict[str, str]) -> None:
         element = root.find(f".//*[@id='{element_id}']")
         if element is None:
             raise ValueError(f"Missing SVG element id '{element_id}' in {svg_path}")
-        replace_element_text(element, text)
+        if element_id in DYNAMIC_ROWS:
+            label, color_class = DYNAMIC_ROWS[element_id]
+            replace_row(element, label, text, color_class)
+        else:
+            replace_element_text(element, text)
 
     tree.write(svg_path, encoding="utf-8", xml_declaration=True)
 
