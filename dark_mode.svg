@@ -1,10 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="870" height="421" viewBox="45 72 870 421" role="img" aria-labelledby="title desc">
   <title id="title">Josh's GitHub Profile</title>
   <desc id="desc">A dark GitHub profile card with ASCII art, contact links, and terminal-like system stats.</desc>
   <style>
-    .page { fill: #0d1117; }
-    .card { fill: #0d1117; }
     .panel { fill: #111820; }
     .divider { stroke: #30363d; stroke-width: 1; }
 
@@ -20,8 +18,6 @@
     .muted { fill: #8b949e; text-anchor: end; }
   </style>
 
-  <rect class="page" width="960" height="540" />
-  <rect class="card" x="24" y="24" width="912" height="492" rx="6" />
   <rect class="panel" x="45" y="72" width="870" height="421" rx="8" />
 
   <text class="ascii" x="82" y="91">
