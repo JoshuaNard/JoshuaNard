@@ -1,13 +1,12 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
   <title id="title">Josh's GitHub Profile</title>
-  <desc id="desc">A light GitHub README-style profile card with ASCII art, contact links, and terminal-like system stats.</desc>
+  <desc id="desc">A light GitHub profile card with ASCII art, contact links, and terminal-like system stats.</desc>
   <style>
     .page { fill: #ffffff; }
     .card { fill: #ffffff; stroke: #d0d7de; stroke-width: 1.5; }
     .panel { fill: #f6f8fa; stroke: #d0d7de; stroke-width: 1; }
-    .divider { stroke: #d0d7de; stroke-width: 1; }
-    .crumb { fill: #57606a; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 12px; white-space: pre; }
+    .divider { stroke: #d0d7de; stroke-width: 1; }
     .text { fill: #24292f; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 12px; white-space: pre; }
     .ascii { fill: #24292f; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 8px; white-space: pre; }
     .pink { fill: #d1246f; font-weight: 700; }
@@ -22,7 +21,6 @@
 
   <rect class="page" width="960" height="540" />
   <rect class="card" x="24" y="24" width="912" height="492" rx="6" />
-  <text class="crumb" x="50" y="55">JoshuaNard / README.md</text>
   <rect class="panel" x="45" y="72" width="870" height="421" rx="8" />
 
   <text class="ascii" x="82" y="91">

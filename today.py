@@ -88,8 +88,8 @@ def plural(word: str, count: int) -> str:
 
 
 def github_token() -> str:
-    """Prefer the Actions-provided token, but allow local .env ACCESS_TOKEN fallback."""
-    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("ACCESS_TOKEN")
+    """Prefer a user PAT, then fall back to the Actions-provided token."""
+    token = os.environ.get("ACCESS_TOKEN") or os.environ.get("GITHUB_TOKEN")
     if not token:
         raise RuntimeError("Set GITHUB_TOKEN or ACCESS_TOKEN in your environment or .env file.")
     return token

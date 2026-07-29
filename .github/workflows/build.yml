@@ -27,7 +27,8 @@ jobs:
 
       - name: Update SVGs
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
           PROFILE_USERNAME: JoshuaNard
           PROFILE_BIRTHDAY: "2004-03-31"
         run: python today.py
