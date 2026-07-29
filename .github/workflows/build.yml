@@ -1,0 +1,43 @@
+﻿name: Build profile SVG
+
+on:
+  schedule:
+    - cron: "17 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Update SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: JoshuaNard
+          PROFILE_BIRTHDAY: "2004-03-31"
+        run: python today.py
+
+      - name: Commit SVG update
+        run: |
+          if [[ -n "$(git status --porcelain -- dark_mode.svg)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add dark_mode.svg
+            git commit -m "Update profile SVG"
+            git push
+          fi
