@@ -91,8 +91,8 @@
 
     <text class="rule" x="385" y="417">___  Github Stats  __________________________________________________________</text>
     <text class="pink" x="385" y="432">Repos:</text><line class="leader" x1="429" y1="428" x2="882" y2="428" /><text id="repos" class="value" x="895" y="432">13</text>
-    <text class="pink" x="385" y="447">Commits:</text><line class="leader" x1="450" y1="443" x2="882" y2="443" /><text id="commits" class="value" x="895" y="447">63</text>
-    <text class="pink" x="385" y="462">Lines of Code on Github:</text><line class="leader" x1="567" y1="458" x2="848" y2="458" /><text id="lines_of_code" class="value" x="895" y="462">28,840</text>
+    <text class="pink" x="385" y="447">Commits:</text><line class="leader" x1="450" y1="443" x2="882" y2="443" /><text id="commits" class="value" x="895" y="447">65</text>
+    <text class="pink" x="385" y="462">Lines of Code on Github:</text><line class="leader" x1="567" y1="458" x2="848" y2="458" /><text id="lines_of_code" class="value" x="895" y="462">28,864</text>
     <text id="last_updated" class="muted" x="895" y="477">Last Updated: 2026-07-29</text>
   </g>
 </svg>
