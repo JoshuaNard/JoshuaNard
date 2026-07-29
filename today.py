@@ -11,7 +11,7 @@ import requests
 
 
 GITHUB_GRAPHQL_URL = "https://api.github.com/graphql"
-SVG_FILES = (Path("dark_mode.svg"),)
+SVG_FILES = (Path("dark_mode.svg"), Path("light_mode.svg"))
 ENV_FILE = Path(".env")
 SVG_NS = "http://www.w3.org/2000/svg"
 ROW_WIDTH = 72

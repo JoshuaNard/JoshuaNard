@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
   <title id="title">Josh's GitHub Profile</title>
   <desc id="desc">A dark GitHub README-style profile card with ASCII art, contact links, and terminal-like system stats.</desc>
@@ -96,8 +96,8 @@
 
     <text class="rule" x="385" y="417">___  Github Stats  __________________________________________________________</text>
     <text class="pink" x="385" y="432">Repos:</text><line class="leader" x1="429" y1="428" x2="882" y2="428" /><text id="repos" class="value" x="895" y="432">13</text>
-    <text class="pink" x="385" y="447">Commits:</text><line class="leader" x1="450" y1="443" x2="882" y2="443" /><text id="commits" class="value" x="895" y="447">76</text>
-    <text class="pink" x="385" y="462">Lines of Code on Github:</text><line class="leader" x1="567" y1="458" x2="848" y2="458" /><text id="lines_of_code" class="value" x="895" y="462">27,650</text>
+    <text class="pink" x="385" y="447">Commits:</text><line class="leader" x1="450" y1="443" x2="882" y2="443" /><text id="commits" class="value" x="895" y="447">78</text>
+    <text class="pink" x="385" y="462">Lines of Code on Github:</text><line class="leader" x1="567" y1="458" x2="848" y2="458" /><text id="lines_of_code" class="value" x="895" y="462">27,783</text>
     <text id="last_updated" class="muted" x="895" y="477">Last Updated: 2026-07-29</text>
   </g>
 </svg>
