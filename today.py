@@ -15,12 +15,7 @@ SVG_FILES = (Path("dark_mode.svg"),)
 ENV_FILE = Path(".env")
 SVG_NS = "http://www.w3.org/2000/svg"
 ROW_WIDTH = 72
-DYNAMIC_ROWS = {
-    "uptime": ("Uptime:", "pink"),
-    "repos": ("Repos:", "pink"),
-    "commits": ("Commits:", "pink"),
-    "lines_of_code": ("Lines of Code on Github:", "pink"),
-}
+DYNAMIC_ROWS: dict[str, tuple[str, str]] = {}
 
 
 def load_dotenv(path: Path = ENV_FILE) -> None:
