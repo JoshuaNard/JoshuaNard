@@ -4,8 +4,8 @@
   <desc id="desc">A dark GitHub profile card with ASCII art, contact links, and terminal-like system stats.</desc>
   <style>
     .page { fill: #0d1117; }
-    .card { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
-    .panel { fill: #111820; stroke: #21262d; stroke-width: 1; }
+    .card { fill: #0d1117; }
+    .panel { fill: #111820; }
     .divider { stroke: #30363d; stroke-width: 1; }
 
     .text { fill: #c9d1d9; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 12px; white-space: pre; }
