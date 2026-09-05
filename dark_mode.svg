@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985" height="530" font-size="16" role="img" aria-labelledby="title desc">
 <title id="title">Josh's GitHub Profile</title>
 <desc id="desc">A dark terminal-style GitHub profile card with a portrait rendered as ASCII art.</desc>
@@ -6,7 +6,7 @@
 @font-face {src:local('Consolas'),local('Consolas Bold');font-family:'ConsolasFallback';font-display:swap;-webkit-size-adjust:109%;size-adjust:109%}
 .key{fill:#ffb3c7;font-weight:700}.accent{fill:#ffe6a7;font-weight:700}.value{fill:#c9d1d9;text-anchor:end}.leader{stroke:#6e7681;stroke-width:1.4;stroke-linecap:round;stroke-dasharray:1 6}.muted{fill:#8b949e}text,tspan{white-space:pre}
 </style>
-<rect width="985" height="530" fill="#111820" rx="15"/>
+<rect width="985" height="530" fill="#111820" rx="15" />
 <text fill="#c9d1d9" font-size="10" aria-label="ASCII portrait of Joshua Nardone">
 <tspan x="20" y="38">- </tspan>
 <tspan x="20" y="49">                = =-         .                     </tspan>
@@ -52,26 +52,26 @@
 </text>
 <g fill="#c9d1d9">
 <text x="390" y="30">Josh@Nardone  —————————————————————————————————————————————</text>
-<g><text x="390" y="50" class="key">OS:</text><line x1="427" y1="45" x2="788" y2="45" class="leader"/><text x="970" y="50" class="value">Windows 11, Ubuntu</text></g>
-<g><text x="390" y="70" class="key">Uptime:</text><line x1="465" y1="65" x2="711" y2="65" class="leader"/><text x="970" y="70" class="value" id="uptime">22 years, 5 months, 5 days</text></g>
-<g><text x="390" y="90" class="key">Host:</text><line x1="446" y1="85" x2="923" y2="85" class="leader"/><text x="970" y="90" class="value">MBTA</text></g>
-<g><text x="390" y="110" class="key">Kernel:</text><line x1="465" y1="105" x2="702" y2="105" class="leader"/><text x="970" y="110" class="value">Software Engineering Intern</text></g>
-<g><text x="390" y="130" class="key">IDE:</text><line x1="437" y1="125" x2="846" y2="125" class="leader"/><text x="970" y="130" class="value">VSCode 1.130</text></g>
-<g><text x="390" y="170" class="accent">Languages.Programming:</text><line x1="610" y1="165" x2="634" y2="165" class="leader"/><text x="970" y="170" class="value">TypeScript, JavaScript, C#, Python</text></g>
-<g><text x="390" y="190" class="accent">Languages.Computer:</text><line x1="581" y1="185" x2="769" y2="185" class="leader"/><text x="970" y="190" class="value">HTML, CSS, SQL, JSON</text></g>
-<g><text x="390" y="210" class="accent">Languages.Real:</text><line x1="543" y1="205" x2="895" y2="205" class="leader"/><text x="970" y="210" class="value">English</text></g>
-<g><text x="390" y="250" class="key">Hobbies.Software:</text><line x1="562" y1="245" x2="702" y2="245" class="leader"/><text x="970" y="250" class="value">React, Next.js, .NET, Godot</text></g>
-<g><text x="390" y="270" class="key">Hobbies.Hardware:</text><line x1="562" y1="265" x2="605" y2="265" class="leader"/><text x="970" y="270" class="value">PC Building, Raspberry Pi, Networking</text></g>
-<g><text x="390" y="290" class="key">Hobbies.Life:</text><line x1="523" y1="285" x2="644" y2="285" class="leader"/><text x="970" y="290" class="value">Fishing, Baseball, Gaming, Hiking</text></g>
+<g><text x="390" y="50" class="key">OS:</text><line x1="427" y1="45" x2="788" y2="45" class="leader" /><text x="970" y="50" class="value">Windows 11, Ubuntu</text></g>
+<g><text x="390" y="70" class="key">Uptime:</text><line x1="465" y1="65" x2="711" y2="65" class="leader" /><text x="970" y="70" class="value" id="uptime">22 years, 5 months, 5 days</text></g>
+<g><text x="390" y="90" class="key">Host:</text><line x1="446" y1="85" x2="923" y2="85" class="leader" /><text x="970" y="90" class="value">MBTA</text></g>
+<g><text x="390" y="110" class="key">Kernel:</text><line x1="465" y1="105" x2="702" y2="105" class="leader" /><text x="970" y="110" class="value">Software Engineering Intern</text></g>
+<g><text x="390" y="130" class="key">IDE:</text><line x1="437" y1="125" x2="846" y2="125" class="leader" /><text x="970" y="130" class="value">VSCode 1.130</text></g>
+<g><text x="390" y="170" class="accent">Languages.Programming:</text><line x1="610" y1="165" x2="634" y2="165" class="leader" /><text x="970" y="170" class="value">TypeScript, JavaScript, C#, Python</text></g>
+<g><text x="390" y="190" class="accent">Languages.Computer:</text><line x1="581" y1="185" x2="769" y2="185" class="leader" /><text x="970" y="190" class="value">HTML, CSS, SQL, JSON</text></g>
+<g><text x="390" y="210" class="accent">Languages.Real:</text><line x1="543" y1="205" x2="895" y2="205" class="leader" /><text x="970" y="210" class="value">English</text></g>
+<g><text x="390" y="250" class="key">Hobbies.Software:</text><line x1="562" y1="245" x2="702" y2="245" class="leader" /><text x="970" y="250" class="value">React, Next.js, .NET, Godot</text></g>
+<g><text x="390" y="270" class="key">Hobbies.Hardware:</text><line x1="562" y1="265" x2="605" y2="265" class="leader" /><text x="970" y="270" class="value">PC Building, Raspberry Pi, Networking</text></g>
+<g><text x="390" y="290" class="key">Hobbies.Life:</text><line x1="523" y1="285" x2="644" y2="285" class="leader" /><text x="970" y="290" class="value">Fishing, Baseball, Gaming, Hiking</text></g>
 <text x="390" y="330">- Contact  ———————————————————————————————————————————————</text>
-<g><text x="390" y="350" class="accent">Email.Personal:</text><line x1="543" y1="345" x2="750" y2="345" class="leader"/><text x="970" y="350" class="value">Joshuaslogon@gmail.com</text></g>
-<g><text x="390" y="370" class="accent">Email.School:</text><line x1="523" y1="365" x2="798" y2="365" class="leader"/><text x="970" y="370" class="value">nardonej3@wit.edu</text></g>
-<g><text x="390" y="390" class="accent">LinkedIn:</text><line x1="485" y1="385" x2="827" y2="385" class="leader"/><text x="970" y="390" class="value">joshua-nardone</text></g>
-<g><text x="390" y="410" class="accent">Discord:</text><line x1="475" y1="405" x2="895" y2="405" class="leader"/><text x="970" y="410" class="value">jothua.</text></g>
+<g><text x="390" y="350" class="accent">Email.Personal:</text><line x1="543" y1="345" x2="750" y2="345" class="leader" /><text x="970" y="350" class="value">Joshuaslogon@gmail.com</text></g>
+<g><text x="390" y="370" class="accent">Email.School:</text><line x1="523" y1="365" x2="798" y2="365" class="leader" /><text x="970" y="370" class="value">nardonej3@wit.edu</text></g>
+<g><text x="390" y="390" class="accent">LinkedIn:</text><line x1="485" y1="385" x2="827" y2="385" class="leader" /><text x="970" y="390" class="value">joshua-nardone</text></g>
+<g><text x="390" y="410" class="accent">Discord:</text><line x1="475" y1="405" x2="895" y2="405" class="leader" /><text x="970" y="410" class="value">jothua.</text></g>
 <text x="390" y="450">- GitHub Stats  ——————————————————————————————————————————</text>
-<g><text x="390" y="470" class="key">Repos:</text><line x1="456" y1="465" x2="943" y2="465" class="leader"/><text x="970" y="470" class="value" id="repos">13</text></g>
-<g><text x="390" y="490" class="key">Commits:</text><line x1="475" y1="485" x2="943" y2="485" class="leader"/><text x="970" y="490" class="value" id="commits">81</text></g>
-<g><text x="390" y="510" class="key">Lines of Code on GitHub:</text><line x1="629" y1="505" x2="904" y2="505" class="leader"/><text x="970" y="510" class="value" id="lines_of_code">31,746</text></g>
+<g><text x="390" y="470" class="key">Repos:</text><line x1="456" y1="465" x2="943" y2="465" class="leader" /><text x="970" y="470" class="value" id="repos">13</text></g>
+<g><text x="390" y="490" class="key">Commits:</text><line x1="475" y1="485" x2="943" y2="485" class="leader" /><text x="970" y="490" class="value" id="commits">85</text></g>
+<g><text x="390" y="510" class="key">Lines of Code on GitHub:</text><line x1="629" y1="505" x2="904" y2="505" class="leader" /><text x="970" y="510" class="value" id="lines_of_code">32,438</text></g>
 </g>
 <text x="970" y="522" text-anchor="end" font-size="11" class="muted" id="last_updated">Last Updated: 2026-09-05</text>
 </svg>
