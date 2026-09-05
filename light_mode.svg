@@ -4,7 +4,7 @@
 <desc id="desc">A light terminal-style GitHub profile card with a portrait rendered as ASCII art.</desc>
 <style>
 @font-face {src:local('Consolas'),local('Consolas Bold');font-family:'ConsolasFallback';font-display:swap;-webkit-size-adjust:109%;size-adjust:109%}
-.key{fill:#d1246f;font-weight:700}.accent{fill:#9a6700;font-weight:700}.value{fill:#24292f;text-anchor:start}.cc{display:none;fill:#8c959f}.muted{fill:#8b949e}text,tspan{white-space:pre}
+.key{fill:#d1246f;font-weight:700}.accent{fill:#9a6700;font-weight:700}.value{fill:#24292f;text-anchor:end}.leader{stroke:#8c959f;stroke-width:1.4;stroke-linecap:round;stroke-dasharray:1 6}.muted{fill:#8b949e}text,tspan{white-space:pre}
 </style>
 <rect width="985" height="530" fill="#f6f8fa" rx="15"/>
 <text fill="#24292f" font-size="10" aria-label="ASCII portrait of Joshua Nardone">
@@ -52,26 +52,26 @@
 </text>
 <g fill="#24292f">
 <text x="390" y="30">Josh@Nardone  —————————————————————————————————————————————</text>
-<text x="390" y="50"><tspan class="key">OS:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">Windows 11, Ubuntu</tspan></text>
-<text x="390" y="70"><tspan class="key">Uptime:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value" id="uptime">22 years, 5 months, 5 days</tspan></text>
-<text x="390" y="90"><tspan class="key">Host:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">MBTA</tspan></text>
-<text x="390" y="110"><tspan class="key">Kernel:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">Software Engineering Intern</tspan></text>
-<text x="390" y="130"><tspan class="key">IDE:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">VSCode 1.130</tspan></text>
-<text x="390" y="170"><tspan class="accent">Languages.Programming:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">TypeScript, JavaScript, C#, Python</tspan></text>
-<text x="390" y="190"><tspan class="accent">Languages.Computer:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">HTML, CSS, SQL, JSON</tspan></text>
-<text x="390" y="210"><tspan class="accent">Languages.Real:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">English</tspan></text>
-<text x="390" y="250"><tspan class="key">Hobbies.Software:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">React, Next.js, .NET, Godot</tspan></text>
-<text x="390" y="270"><tspan class="key">Hobbies.Hardware:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">PC Building, Raspberry Pi, Networking</tspan></text>
-<text x="390" y="290"><tspan class="key">Hobbies.Life:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">Fishing, Baseball, Gaming, Hiking</tspan></text>
+<g><text x="390" y="50" class="key">OS:</text><line x1="427" y1="45" x2="788" y2="45" class="leader"/><text x="970" y="50" class="value">Windows 11, Ubuntu</text></g>
+<g><text x="390" y="70" class="key">Uptime:</text><line x1="465" y1="65" x2="711" y2="65" class="leader"/><text x="970" y="70" class="value" id="uptime">22 years, 5 months, 5 days</text></g>
+<g><text x="390" y="90" class="key">Host:</text><line x1="446" y1="85" x2="923" y2="85" class="leader"/><text x="970" y="90" class="value">MBTA</text></g>
+<g><text x="390" y="110" class="key">Kernel:</text><line x1="465" y1="105" x2="702" y2="105" class="leader"/><text x="970" y="110" class="value">Software Engineering Intern</text></g>
+<g><text x="390" y="130" class="key">IDE:</text><line x1="437" y1="125" x2="846" y2="125" class="leader"/><text x="970" y="130" class="value">VSCode 1.130</text></g>
+<g><text x="390" y="170" class="accent">Languages.Programming:</text><line x1="610" y1="165" x2="634" y2="165" class="leader"/><text x="970" y="170" class="value">TypeScript, JavaScript, C#, Python</text></g>
+<g><text x="390" y="190" class="accent">Languages.Computer:</text><line x1="581" y1="185" x2="769" y2="185" class="leader"/><text x="970" y="190" class="value">HTML, CSS, SQL, JSON</text></g>
+<g><text x="390" y="210" class="accent">Languages.Real:</text><line x1="543" y1="205" x2="895" y2="205" class="leader"/><text x="970" y="210" class="value">English</text></g>
+<g><text x="390" y="250" class="key">Hobbies.Software:</text><line x1="562" y1="245" x2="702" y2="245" class="leader"/><text x="970" y="250" class="value">React, Next.js, .NET, Godot</text></g>
+<g><text x="390" y="270" class="key">Hobbies.Hardware:</text><line x1="562" y1="265" x2="605" y2="265" class="leader"/><text x="970" y="270" class="value">PC Building, Raspberry Pi, Networking</text></g>
+<g><text x="390" y="290" class="key">Hobbies.Life:</text><line x1="523" y1="285" x2="644" y2="285" class="leader"/><text x="970" y="290" class="value">Fishing, Baseball, Gaming, Hiking</text></g>
 <text x="390" y="330">- Contact  ———————————————————————————————————————————————</text>
-<text x="390" y="350"><tspan class="accent">Email.Personal:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">Joshuaslogon@gmail.com</tspan></text>
-<text x="390" y="370"><tspan class="accent">Email.School:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">nardonej3@wit.edu</tspan></text>
-<text x="390" y="390"><tspan class="accent">LinkedIn:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">joshua-nardone</tspan></text>
-<text x="390" y="410"><tspan class="accent">Discord:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">jothua.</tspan></text>
+<g><text x="390" y="350" class="accent">Email.Personal:</text><line x1="543" y1="345" x2="750" y2="345" class="leader"/><text x="970" y="350" class="value">Joshuaslogon@gmail.com</text></g>
+<g><text x="390" y="370" class="accent">Email.School:</text><line x1="523" y1="365" x2="798" y2="365" class="leader"/><text x="970" y="370" class="value">nardonej3@wit.edu</text></g>
+<g><text x="390" y="390" class="accent">LinkedIn:</text><line x1="485" y1="385" x2="827" y2="385" class="leader"/><text x="970" y="390" class="value">joshua-nardone</text></g>
+<g><text x="390" y="410" class="accent">Discord:</text><line x1="475" y1="405" x2="895" y2="405" class="leader"/><text x="970" y="410" class="value">jothua.</text></g>
 <text x="390" y="450">- GitHub Stats  ——————————————————————————————————————————</text>
-<text x="390" y="470"><tspan class="key">Repos:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value" id="repos">13</tspan></text>
-<text x="390" y="490"><tspan class="key">Commits:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value" id="commits">81</tspan></text>
-<text x="390" y="510"><tspan class="key">Lines of Code on GitHub:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value" id="lines_of_code">31,746</tspan></text>
+<g><text x="390" y="470" class="key">Repos:</text><line x1="456" y1="465" x2="943" y2="465" class="leader"/><text x="970" y="470" class="value" id="repos">13</text></g>
+<g><text x="390" y="490" class="key">Commits:</text><line x1="475" y1="485" x2="943" y2="485" class="leader"/><text x="970" y="490" class="value" id="commits">81</text></g>
+<g><text x="390" y="510" class="key">Lines of Code on GitHub:</text><line x1="629" y1="505" x2="904" y2="505" class="leader"/><text x="970" y="510" class="value" id="lines_of_code">31,746</text></g>
 </g>
 <text x="970" y="522" text-anchor="end" font-size="11" class="muted" id="last_updated">Last Updated: 2026-09-05</text>
 </svg>
