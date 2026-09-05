@@ -1,98 +1,77 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="421" viewBox="0 72 720 421" role="img" aria-labelledby="title desc">
-  <title id="title">Josh's GitHub Profile</title>
-  <desc id="desc">A dark GitHub profile card with ASCII art, contact links, and terminal-like system stats.</desc>
-  <style>
-    .panel { fill: #111820; }
-    .divider { stroke: #30363d; stroke-width: 1; }
-
-    .text { fill: #c9d1d9; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 12px; white-space: pre; }
-    .ascii { fill: #c9d1d9; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 8px; white-space: pre; font-variant-ligatures: none; font-feature-settings: "liga" 0, "calt" 0; }
-    .pink { fill: #ffb3c7; font-weight: 700; }
-    .yellow { fill: #ffe6a7; font-weight: 700; }
-    .leader { stroke: #6e7681; stroke-width: 1.3; stroke-linecap: round; stroke-dasharray: 1 6; }
-    .underscore { stroke: #f0f6fc; stroke-width: 1.5; stroke-linecap: square; }
-    .value { fill: #f0f6fc; font-weight: 700; text-anchor: end; }
-    .name { fill: #c9d1d9; font-weight: 700; }
-    .rule { fill: #f0f6fc; font-weight: 700; }
-    .muted { fill: #8b949e; text-anchor: end; }
-  </style>
-
-  <rect class="panel" x="0" y="72" width="720" height="421" rx="8" />
-
-  <text class="ascii" x="82" y="91" transform="translate(-74 0)" xml:space="preserve">
-    <tspan x="82" dy="0">- </tspan>
-    <tspan x="82" dy="9">                = =-         .                     </tspan>
-    <tspan x="82" dy="9">                :. .                               </tspan>
-    <tspan x="82" dy="9">           ++   ::                                 </tspan>
-    <tspan x="82" dy="9">           =:-:.                                   </tspan>
-    <tspan x="82" dy="9">           :                          .            </tspan>
-    <tspan x="82" dy="9">       =::                               .         </tspan>
-    <tspan x="82" dy="9">     -::.                                 :        </tspan>
-    <tspan x="82" dy="9">    =:                                     .       </tspan>
-    <tspan x="82" dy="9">   ::.                                      .      </tspan>
-    <tspan x="82" dy="9">  %=.                                       ..     </tspan>
-    <tspan x="82" dy="9">   =.                                         :    </tspan>
-    <tspan x="82" dy="9">   -.         -.                              .    </tspan>
-    <tspan x="82" dy="9">    :        -=%@%+---.        :-.            .    </tspan>
-    <tspan x="82" dy="9">    :       -=@@@@@@@@**%*---------:               </tspan>
-    <tspan x="82" dy="9">    :.    .-+@@@@@@@@@@@@@@@%#+++---:.       .     </tspan>
-    <tspan x="82" dy="9">     .   -+#%@@@@@@@@@@@@@@@@@@%#=-----      .     </tspan>
-    <tspan x="82" dy="9">    #=. :=---------*@@@@@%##--------=+=     --     </tspan>
-    <tspan x="82" dy="9">    %#- =*#%%%##*=+#@@@@@%+-=+#@%%**+++.  ---#     </tspan>
-    <tspan x="82" dy="9">    @%@-*%@#+**--=+##@@@*++-+-.---=%@#*- .---%     </tspan>
-    <tspan x="82" dy="9">    @%#*#%@@@@@@@@%%%@@%**%@@@@@%##%@%*=:--#+%     </tspan>
-    <tspan x="82" dy="9">    @%@%%@@@@@@@@@@@%@@#**#%@@@@@@@@@%*----++*     </tspan>
-    <tspan x="82" dy="9">    %@@%%%%@@@@@@@%#%@@#+=#@@@@@@@%#@@+-=-*++      </tspan>
-    <tspan x="82" dy="9">     @@%%@@@@@@@@@@@@@@%*+=#@@@@@@@%#%=-=+#*       </tspan>
-    <tspan x="82" dy="9">      @+@@@@@@@@@@%#%@@--==%@@@@@@@@#*=--=+        </tspan>
-    <tspan x="82" dy="9">       -%@@@@@@%%####%#*+***#%@@@@@%#+--           </tspan>
-    <tspan x="82" dy="9">        #@@@@@+=@@@@@@@%%#*--+%@@@@@*=-=**         </tspan>
-    <tspan x="82" dy="9">        *@@@@@@%=@@@@@@@@@=-*%@@@@@#+-: .:=*@@     </tspan>
-    <tspan x="82" dy="9">         #@@@@@@@@#*#**++##%%@@@%@*===-.:-:-#@@@   </tspan>
-    <tspan x="82" dy="9">        @@%@@@@@@@@@@@@@@@@@@@@%@*==+*- :+%%+#@@@  </tspan>
-    <tspan x="82" dy="9">       @@@*=%@@@@@@@@@@@@@@@@@%%===*%#- +%@@@**@@@ </tspan>
-    <tspan x="82" dy="9">      @@@*-#%#@@@@@@@@@@@@%@%*+==*@@@%- *@@@@@@#@@@</tspan>
-    <tspan x="82" dy="9">    @@@@=:@@@@#+=*%@@@@@@#=--=++#@@@@@=-=%@@@@@@@@@</tspan>
-    <tspan x="82" dy="9"> @@@@@@@-@@@@@@*=--##%@#=--=++*%%@@@@@+==-+@@@@@@@@</tspan>
-    <tspan x="82" dy="9">@@@@@@@@@@@@@@@@#+======+***+*%@@@@@@@*%#%#=+@@@@@@</tspan>
-    <tspan x="82" dy="9">@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@#@#@@%@@@@@@@</tspan>
-    <tspan x="82" dy="9">@@@@@@@@@@@@@*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
-    <tspan x="82" dy="9">@@@@@@@@@@@@@=@@@@@@@@@@@@@@@@@@@@@@@@@##-@@@@@@@@@</tspan>
-    <tspan x="82" dy="9">@@@@@@@@@@@@@.-@@@@@@@@@@@@@@@@@@@@@@*+  %@@@@@@@@@</tspan>
-    <tspan x="82" dy="9">@@@@@@@@@@@@@=  -@@@@@@@@@@@@@@@@@+  :  @@@@@@@@@@@</tspan>
-    <tspan x="82" dy="9">@@@@@@@@@@@@@-     :+%@@@@@%#=.     :.#@@@@@@@@@@@@</tspan>
-  </text>
-
-  <line class="divider" x1="255" y1="94" x2="255" y2="470" />
-
-  <g class="text" transform="matrix(0.843137 0 0 1 -49.51 0)">
-    <text class="name" x="385" y="102">___  Josh@Nardone  </text><line class="underscore" x1="505" y1="102" x2="895" y2="102" />
-
-    <text class="pink" x="385" y="117">OS:</text><line class="leader" x1="415" y1="113" x2="775" y2="113" /><text class="value" x="895" y="117">Windows 11, Ubuntu</text>
-    <text class="pink" x="385" y="132">Uptime:</text><line class="leader" x1="443" y1="128" x2="700" y2="128" /><text id="uptime" class="value" x="895" y="132">22 years, 5 months, 5 days</text>
-    <text class="pink" x="385" y="147">Host:</text><line class="leader" x1="422" y1="143" x2="872" y2="143" /><text class="value" x="895" y="147">MBTA</text>
-    <text class="pink" x="385" y="162">Kernel:</text><line class="leader" x1="450" y1="158" x2="698" y2="158" /><text class="value" x="895" y="162">Software Engineering Intern</text>
-    <text class="pink" x="385" y="177">IDE:</text><line class="leader" x1="415" y1="173" x2="810" y2="173" /><text class="value" x="895" y="177">VSCode 1.130</text>
-
-    <text class="yellow" x="385" y="207">Languages.Programming:</text><line class="leader" x1="553" y1="203" x2="662" y2="203" /><text class="value" x="895" y="207">TypeScript, JavaScript, C#, Python</text>
-    <text class="yellow" x="385" y="222">Languages.Computer:</text><line class="leader" x1="532" y1="218" x2="765" y2="218" /><text class="value" x="895" y="222">HTML, CSS, SQL, JSON</text>
-    <text class="yellow" x="385" y="237">Languages.Real:</text><line class="leader" x1="504" y1="233" x2="850" y2="233" /><text class="value" x="895" y="237">English</text>
-
-    <text class="pink" x="385" y="267">Hobbies.Software:</text><line class="leader" x1="518" y1="263" x2="705" y2="263" /><text class="value" x="895" y="267">React, Next.js, .NET, Godot</text>
-    <text class="pink" x="385" y="282">Hobbies.Hardware:</text><line class="leader" x1="518" y1="278" x2="640" y2="278" /><text class="value" x="895" y="282">PC Building, Raspberry Pi, Networking</text>
-    <text class="pink" x="385" y="297">Hobbies.Life:</text><line class="leader" x1="483" y1="293" x2="665" y2="293" /><text class="value" x="895" y="297">Fishing, Baseball, Gaming, Hiking</text>
-
-    <text class="rule" x="385" y="327">___  Contact  _______________________________________________________________</text>
-    <text class="yellow" x="385" y="342">Email.Personal:</text><line class="leader" x1="504" y1="338" x2="735" y2="338" /><text class="value" x="895" y="342">Joshuaslogon@gmail.com</text>
-    <text class="yellow" x="385" y="357">Email.School:</text><line class="leader" x1="490" y1="353" x2="765" y2="353" /><text class="value" x="895" y="357">nardonej3@wit.edu</text>
-    <text class="yellow" x="385" y="372">LinkedIn:</text><line class="leader" x1="462" y1="368" x2="780" y2="368" /><text class="value" x="895" y="372">joshua-nardone</text>
-    <text class="yellow" x="385" y="387">Discord:</text><line class="leader" x1="455" y1="383" x2="850" y2="383" /><text class="value" x="895" y="387">jothua.</text>
-
-    <text class="rule" x="385" y="417">___  Github Stats  __________________________________________________________</text>
-    <text class="pink" x="385" y="432">Repos:</text><line class="leader" x1="429" y1="428" x2="882" y2="428" /><text id="repos" class="value" x="895" y="432">13</text>
-    <text class="pink" x="385" y="447">Commits:</text><line class="leader" x1="450" y1="443" x2="882" y2="443" /><text id="commits" class="value" x="895" y="447">81</text>
-    <text class="pink" x="385" y="462">Lines of Code on Github:</text><line class="leader" x1="567" y1="458" x2="848" y2="458" /><text id="lines_of_code" class="value" x="895" y="462">31,746</text>
-    <text id="last_updated" class="muted" x="895" y="477">Last Updated: 2026-09-05</text>
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985" height="530" font-size="16" role="img" aria-labelledby="title desc">
+<title id="title">Josh's GitHub Profile</title>
+<desc id="desc">A dark terminal-style GitHub profile card with a portrait rendered as ASCII art.</desc>
+<style>
+@font-face {src:local('Consolas'),local('Consolas Bold');font-family:'ConsolasFallback';font-display:swap;-webkit-size-adjust:109%;size-adjust:109%}
+.key{fill:#ffb3c7;font-weight:700}.accent{fill:#ffe6a7;font-weight:700}.value{fill:#c9d1d9;text-anchor:start}.cc{display:none;fill:#6e7681}.muted{fill:#8b949e}text,tspan{white-space:pre}
+</style>
+<rect width="985" height="530" fill="#111820" rx="15"/>
+<text fill="#c9d1d9" font-size="10" aria-label="ASCII portrait of Joshua Nardone">
+<tspan x="20" y="38">                       # @@@                       </tspan>
+<tspan x="20" y="49">                * *# @@@@@@@@@                     </tspan>
+<tspan x="20" y="60">                %@@@@@@@@@@@@@@@@                  </tspan>
+<tspan x="20" y="71">           ++   %%@@@@@@@@@@@@@@@@@@               </tspan>
+<tspan x="20" y="82">           *%#%@@@@@@@@@@@@@@@@@@@@@@@             </tspan>
+<tspan x="20" y="93">           %@@@@@@@@@@@@@@@@@@@@@@@@@@@            </tspan>
+<tspan x="20" y="104">       *%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@         </tspan>
+<tspan x="20" y="115">     #%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%        </tspan>
+<tspan x="20" y="126">    *%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       </tspan>
+<tspan x="20" y="137">   %%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@      </tspan>
+<tspan x="20" y="148">  :*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     </tspan>
+<tspan x="20" y="159">   *@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%    </tspan>
+<tspan x="20" y="170">   #@@@@@@@@@@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    </tspan>
+<tspan x="20" y="181">    %@@@@@@@@#*:.:+###@@@@@@@@@%#@@@@@@@@@@@@@@    </tspan>
+<tspan x="20" y="192">    %@@@@@@@#*........==:=#########%@@@@@@@@@@     </tspan>
+<tspan x="20" y="203">    %@@@@@@#+...............:-+++###%@@@@@@@@@     </tspan>
+<tspan x="20" y="214">     @@@@#+-:.......    .......:-*#####@@@@@@@     </tspan>
+<tspan x="20" y="225">    -*@@%*#########=.   .:--########*+*@@@@@%#     </tspan>
+<tspan x="20" y="236">    :-#@*=-:::--=*+-.....:+#*+-.::==+++@@@###-     </tspan>
+<tspan x="20" y="247">    .:.#=:.-+==##*+--...=++#+#@###*-.-=#@@###:     </tspan>
+<tspan x="20" y="258">    .:-=-:........:::..:==:.....:--:.:=*%##-+:     </tspan>
+<tspan x="20" y="269">    .:.::...........:..-==-:.........:=####++=     </tspan>
+<tspan x="20" y="280">    :..::::....  .:-:..-+*-.  ....:-..+#*#=++      </tspan>
+<tspan x="20" y="291">     ..::..............:=+*-..  ...:-:*#*+-=       </tspan>
+<tspan x="20" y="302">      .+..........:-:..##**:........-=*##*+        </tspan>
+<tspan x="20" y="313">       #:......::----:-=+===-:.....:-+##           </tspan>
+<tspan x="20" y="324">        -.. ..+*.......::-=##+:.....=*#*==         </tspan>
+<tspan x="20" y="335">        =... ..:*..    ...*#=:.....-+#%@@%*=       </tspan>
+<tspan x="20" y="346">         -........-=-==++--::...:.=***#@%#%#-      </tspan>
+<tspan x="20" y="357">          :....          ......:.=**+=#@%+::+-     </tspan>
+<tspan x="20" y="368">          =*:... .............::***=:-#@+:.  ==    </tspan>
+<tspan x="20" y="379">         =#-:-.....     ..:.:=+**=...:#@=      -   </tspan>
+<tspan x="20" y="390">        *%.  .-+*=:.    .-*##*++-.....*#*:         </tspan>
+<tspan x="20" y="401">        #    ..=*##--:.-*##*++=::.....+**#+        </tspan>
+<tspan x="20" y="412">        .      .-+******+===+=:..   ..=:-:-*+      </tspan>
+<tspan x="20" y="423">                ...   ....::...     ..-.-..:       </tspan>
+<tspan x="20" y="434">             =.  ..    .....        .......        </tspan>
+<tspan x="20" y="445">             *.   ..                ...--#         </tspan>
+<tspan x="20" y="456">             @#.                    .=+@@:         </tspan>
+<tspan x="20" y="467">             *@@#.                +@@%@@.          </tspan>
+<tspan x="20" y="478">             #@@@@@%+:.   .:-*@@@@@@%@-            </tspan>
+</text>
+<g fill="#c9d1d9">
+<text x="390" y="30">Josh@Nardone  —————————————————————————————————————————————</text>
+<text x="390" y="50"><tspan class="key">OS:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">Windows 11, Ubuntu</tspan></text>
+<text x="390" y="70"><tspan class="key">Uptime:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value" id="uptime">22 years, 5 months, 5 days</tspan></text>
+<text x="390" y="90"><tspan class="key">Host:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">MBTA</tspan></text>
+<text x="390" y="110"><tspan class="key">Kernel:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">Software Engineering Intern</tspan></text>
+<text x="390" y="130"><tspan class="key">IDE:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">VSCode 1.130</tspan></text>
+<text x="390" y="170"><tspan class="accent">Languages.Programming:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">TypeScript, JavaScript, C#, Python</tspan></text>
+<text x="390" y="190"><tspan class="accent">Languages.Computer:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">HTML, CSS, SQL, JSON</tspan></text>
+<text x="390" y="210"><tspan class="accent">Languages.Real:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">English</tspan></text>
+<text x="390" y="250"><tspan class="key">Hobbies.Software:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">React, Next.js, .NET, Godot</tspan></text>
+<text x="390" y="270"><tspan class="key">Hobbies.Hardware:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">PC Building, Raspberry Pi, Networking</tspan></text>
+<text x="390" y="290"><tspan class="key">Hobbies.Life:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">Fishing, Baseball, Gaming, Hiking</tspan></text>
+<text x="390" y="330">- Contact  ———————————————————————————————————————————————</text>
+<text x="390" y="350"><tspan class="accent">Email.Personal:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">Joshuaslogon@gmail.com</tspan></text>
+<text x="390" y="370"><tspan class="accent">Email.School:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">nardonej3@wit.edu</tspan></text>
+<text x="390" y="390"><tspan class="accent">LinkedIn:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">joshua-nardone</tspan></text>
+<text x="390" y="410"><tspan class="accent">Discord:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value">jothua.</tspan></text>
+<text x="390" y="450">- GitHub Stats  ——————————————————————————————————————————</text>
+<text x="390" y="470"><tspan class="key">Repos:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value" id="repos">13</tspan></text>
+<text x="390" y="490"><tspan class="key">Commits:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value" id="commits">81</tspan></text>
+<text x="390" y="510"><tspan class="key">Lines of Code on GitHub:</tspan><tspan class="cc"> ................................................................</tspan><tspan x="630" class="value" id="lines_of_code">31,746</tspan></text>
+</g>
+<text x="970" y="522" text-anchor="end" font-size="11" class="muted" id="last_updated">Last Updated: 2026-09-05</text>
 </svg>
