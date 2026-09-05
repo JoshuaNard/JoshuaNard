@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="870" height="421" viewBox="45 72 870 421" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="421" viewBox="0 72 720 421" role="img" aria-labelledby="title desc">
   <title id="title">Josh's GitHub Profile</title>
   <desc id="desc">A light GitHub profile card with ASCII art, contact links, and terminal-like system stats.</desc>
   <style>
@@ -18,9 +18,9 @@
     .muted { fill: #8b949e; text-anchor: end; }
   </style>
 
-  <rect class="panel" x="45" y="72" width="870" height="421" rx="8" />
+  <rect class="panel" x="0" y="72" width="720" height="421" rx="8" />
 
-  <text class="ascii" x="82" y="91" xml:space="preserve">
+  <text class="ascii" x="82" y="91" transform="translate(-74 0)" xml:space="preserve">
     <tspan x="82" dy="0">                       # @@@                       </tspan>
     <tspan x="82" dy="9">                * *# @@@@@@@@@                     </tspan>
     <tspan x="82" dy="9">                %@@@@@@@@@@@@@@@@                  </tspan>
@@ -64,9 +64,9 @@
     <tspan x="82" dy="9">             #@@@@@%+:.   .:-*@@@@@@%@-            </tspan>
   </text>
 
-  <line class="divider" x1="365" y1="94" x2="365" y2="470" />
+  <line class="divider" x1="255" y1="94" x2="255" y2="470" />
 
-  <g class="text">
+  <g class="text" transform="matrix(0.843137 0 0 1 -49.51 0)">
     <text class="name" x="385" y="102">___  Josh@Nardone  </text><line class="underscore" x1="505" y1="102" x2="895" y2="102" />
 
     <text class="pink" x="385" y="117">OS:</text><line class="leader" x1="415" y1="113" x2="775" y2="113" /><text class="value" x="895" y="117">Windows 11, Ubuntu</text>
